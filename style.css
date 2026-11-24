@@ -1,0 +1,104 @@
+:root {
+      --bg: #f6f7f9;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --accent: #2563eb;
+      --accent-hover: #1d4ed8;
+      --border: #e5e7eb;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      padding: 2rem 1rem;
+    }
+
+    .contenedor {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    header {
+      margin-bottom: 1.5rem;
+    }
+
+    h1 {
+      margin: 0 0 0.25rem;
+      font-size: 1.6rem;
+    }
+
+    .subtitulo {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .buscador {
+      width: 100%;
+      padding: 0.7rem 0.9rem;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.95rem;
+      background: var(--card);
+      margin-bottom: 1rem;
+    }
+
+    .lista {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .archivo {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 0.95rem 1.1rem;
+    }
+
+    .archivo-titulo {
+      font-weight: 600;
+      margin: 0;
+    }
+
+    .archivo-meta {
+      color: var(--muted);
+      font-size: 0.85rem;
+      margin-top: 0.15rem;
+    }
+
+    .btn-descargar {
+      text-decoration: none;
+      background: var(--accent);
+      color: #ffffff;
+      padding: 0.5rem 0.9rem;
+      border-radius: 7px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      white-space: nowrap;
+    }
+
+    .btn-descargar:hover {
+      background: var(--accent-hover);
+    }
+
+    .vacio {
+      text-align: center;
+      color: var(--muted);
+      padding: 2rem;
+      background: var(--card);
+      border: 1px dashed var(--border);
+      border-radius: 10px;
+    }
