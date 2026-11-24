@@ -41,6 +41,13 @@
         tipo: "PNG",
         fecha: "2026-11-22",
         descripcion: "Conjunto de posibles skins para el personaje base"
+      },
+      {
+        nombre: "Video guía 'Creando primer juego' - Semana 3",
+        ruta: "Archivos/juegonuevo.mp4",
+        tipo: "MP4",
+        fecha: "2026-11-24",
+        descripcion: "Video simple e introductorio, que explica como crear el primer proyecto"
       }
       //{
         //nombre: "Ejercicios de práctica - Semana 1",
